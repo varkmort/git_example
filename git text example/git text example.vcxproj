@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClCompile Include="git example.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="name-holder.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
