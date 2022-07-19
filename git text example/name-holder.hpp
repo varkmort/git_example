@@ -3,7 +3,10 @@
 
 #include <string>
 
-struct Array;
+struct Array {
+	const std::string *data;
+	int size;
+};
 
 
 void AddName(std::string name);
