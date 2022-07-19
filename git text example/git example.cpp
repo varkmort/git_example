@@ -1,5 +1,8 @@
 ﻿#include <iostream>
+#include <string>
+#include <fstream>
 
+#include "name-holder.hpp"
 /*
 git commands
     init  - создание репозитория в текущей папке
@@ -27,6 +30,12 @@ git commands
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string sentence;
+    sentence = "Hello World!\n";
+    std::cout << sentence;
+    std::ofstream out("out");
+    out << sentence;
+    Array r;
+    std::cout << r.data[0];
     return 0;
 }
