@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="git example.cpp" />
+    <ClCompile Include="name-holder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="name-holder.hpp" />
